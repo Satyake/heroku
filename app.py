@@ -14,7 +14,7 @@ def predict():
     #features=features.reshape(-1,1)
     predictions=model.predict(features)
     outputs=predictions[0]
-    return render_template('index.html',prediction_text='{} 1- for survived  0- for MIA'.format(outputs))
+    return render_template('index.html',prediction_text='Predicted{} Key: 1- for survived  0- for MIA'.format(outputs))
     
 
 
