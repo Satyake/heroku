@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Deployment Satyake  Sourced from-@amman</title>
+  <title>Deployment Satyake  Sourced from-@AM</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -17,11 +17,11 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Boat_encoded" placeholder="Agis0" required="required" />
-        <input type="text" name="Cabin_encoded" placeholder="Agis1" required="required" />
-        <input type="text" name="Sex_encoded" placeholder="Agis2" required="required" />
-        <input type="text" name="Age" placeholder="Agis3" required="required" />
-        <input type="text" name="Disembarked" placeholder="Agis4" required="required" />
+    	<input type="text" name="Boat_encoded" placeholder="No of Boats" required="required" />
+        <input type="text" name="Cabin_encoded" placeholder="Cabin Encoder (Enter any Number)" required="required" />
+        <input type="text" name="Sex_encoded" placeholder="1 for Male 2 for Female" required="required" />
+        <input type="text" name="Age" placeholder="Age" required="required" />
+        <input type="text" name="Disembarked" placeholder="1 or 0" required="required" />
 
 
 
